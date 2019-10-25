@@ -1,0 +1,53 @@
+conky.config = {
+    use_xft = true,
+    xftalpha = 0.8,
+    update_interval = 1.0,
+    total_run_times = 0,
+    own_window = false,
+    own_window_transparent = true,
+    own_window_argb_visual = true,
+    own_window_argb_value = 0,
+    own_window_type = 'conky',
+    own_window_class = 'conky-semi',
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    background = true,
+    double_buffer = yes,
+    imlib_cache_size = 0,
+    no_buffers = true,
+    uppercase = false,
+    cpu_avg_samples = 2,
+    override_utf8_locale = true,
+ 
+    -- placement
+    alignment = 'top_right',
+    gap_x = 25,
+    gap_y = 25,
+ 
+    -- default drawing
+    minimum_width = 300,
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = false,
+    draw_graph_borders = false,
+    default_bar_width = 150, default_bar_height = 5,
+    default_graph_width = 150, default_graph_height = 12,
+    default_gauge_width = 20, default_gauge_height = 20,
+ 
+    -- colors
+    font = 'Liberation Mono:size=10',
+    default_color = 'EEEEEE',
+ 
+    -- layouting
+    template1 = [[${font DejaVuSans Mono:size=19}${color}${alignc}]],
+    template2 = [[${font DejaVuSans Mono:size=10}${color}${alignc}]]
+};
+ 
+conky.text = [[
+${template1}${time %R}
+${template2}${time %a}, ${time %x}
+${hr 1}
+${alignc}  Awaiting for new ebuilds 
+${hr 1}
+RAM in use: ${membar 10, 180} ${alignr} ${memperc}%
+
+]];

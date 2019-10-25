@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<JWM>
+
+	    <StartupCommand>xxkb</StartupCommand>
+    <!-- The root menu. -->
+    <RootMenu onroot="12">
+        <Program  label="Terminal">xfce4-terminal</Program>
+    </RootMenu>
+
+    <!-- Tray at the bottom. -->
+    <Tray x="0" y="-1" autohide="off" height="25px">
+        <Pager labeled="true"/>
+
+        <TaskList maxwidth="256"/>
+
+        <Dock/>
+
+	    <Spacer width="5"/>
+		<TrayButton label="X">exec:xterm</TrayButton>
+    </Tray>
+
+    <!-- Visual Styles -->
+    <WindowStyle>
+        <Font>Sans-10:bold</Font>
+        <Width>4</Width>
+        <Height>21</Height>
+        <Corner>0</Corner>
+        <Foreground>#7699BA</Foreground>
+        <Background>#274B69</Background>
+        <Opacity>0.5:0.9:0.1</Opacity>
+        <Active>
+            <Foreground>#D3D3D3</Foreground>
+            <Background>#1E3B56</Background>
+            <Opacity>1.0</Opacity>
+        </Active>
+    </WindowStyle>
+    <TrayStyle>
+        <Font>Sans-10</Font>
+        <Background>#274B69</Background>
+	<Outline>#274B69</Outline>
+        <Foreground>#7699BA</Foreground>
+        <Opacity>1</Opacity>
+        <Active>
+            <Background>#1E3B56</Background>
+            <Foreground>#d3d3d3</Foreground>
+    	</Active>
+    </TrayStyle>
+
+    <PagerStyle>
+	<Foreground>#7699BA</Foreground>
+        <Background>#274B69</Background>
+		    <Text>#D3D3D3</Text>
+        <Active>
+            <Foreground>#D3D3D3</Foreground>
+            <Background>#1E3B56</Background>
+        </Active>
+    </PagerStyle>
+    <MenuStyle>
+        <Font>Sans-10:bold</Font>
+        <Foreground>#7699BA</Foreground>
+        <Background>#274B69</Background>
+        <Active>
+            <Foreground>#D3D3D3</Foreground>
+            <Background>#1E3B56</Background>
+        </Active>
+        <Opacity>0.85</Opacity>
+    </MenuStyle>
+    <PopupStyle>
+        <Font>Sans-9</Font>
+        <Foreground>#D3D3D3</Foreground>
+        <Background>#274B69</Background>
+    </PopupStyle>
+
+    <!-- Path where icons can be found.
+         IconPath can be listed multiple times to allow searching
+         for icons in multiple paths.
+      -->
+    <IconPath>
+        /usr/share/icons/wm-icons/32x32-gant
+    </IconPath>
+
+    <!-- Virtual Desktops -->
+    <!-- Desktop tags can be contained within Desktops for desktop names. -->
+    <Desktops width="4" height="1">
+        <!-- Default background. Note that a Background tag can be
+              contained within a Desktop tag to give a specific background
+              for that desktop.
+         -->
+	<Background type="command">feh --bg-scale /home/thetailgunner/Pictures/wallpaper.jpg</Background>
+    </Desktops>
+
+    <!-- Double click speed (in milliseconds) -->
+    <DoubleClickSpeed>400</DoubleClickSpeed>
+
+    <!-- Double click delta (in pixels) -->
+    <DoubleClickDelta>2</DoubleClickDelta>
+
+    <!-- The focus model (sloppy or click) -->
+    <FocusModel>click</FocusModel>
+
+    <!-- The snap mode (none, screen, or border) -->
+    <SnapMode distance="10">border</SnapMode>
+
+    <!-- The move mode (outline or opaque) -->
+    <MoveMode>opaque</MoveMode>
+
+    <!-- The resize mode (outline or opaque) -->
+    <ResizeMode>opaque</ResizeMode>
+
+    <!-- Key bindings -->
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
+    <Key key="Right">right</Key>
+    <Key key="Left">left</Key>
+    <Key key="h">left</Key>
+    <Key key="j">down</Key>
+    <Key key="k">up</Key>
+    <Key key="l">right</Key>
+    <Key key="Return">select</Key>
+    <Key key="Escape">escape</Key>
+    <Key key="Space">space</Key>
+
+    <Key mask="A" key="Tab">nextstacked</Key>
+    <Key mask="A" key="F4">close</Key>
+    <Key mask="A" key="#">desktop#</Key>
+    <Key mask="A" key="F1">root:1</Key>
+    <Key mask="A" key="F2">window</Key>
+    <Key mask="A" key="Up">maximize</Key>
+    <Key mask="A" key="Down">minimize</Key>
+    <Key mask="A" key="Right">rdesktop</Key>
+    <Key mask="A" key="Left">ldesktop</Key>
+    <Key mask="A" key="X">exec:rofi -show run</Key>
+    <Key mask="A" key="C">showdesktop</Key>
+    <Key mask="A" key="T">exec:xfce4-terminal</Key>
+
+</JWM>

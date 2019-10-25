@@ -1,0 +1,11 @@
+XXkb.mainwindow.type:  tray
+XXkb.button.enable: no
+XXkb.mainwindow.enable:  yes
+XXkb.mainwindow.in_tray:  yes
+XXkb.mainwindow.geometry: 20x20+0+0
+XXkb.mainwindow.label.enable:  yes
+XXkb.mainwindow.label.text.1:  En
+XXkb.mainwindow.label.text.2:  Ru
+XXkb.mainwindow.label.background:  #274B69
+XXkb.mainwindow.label.foreground:  #7699BA
+XXkb.mainwindow.label.font:  Sans-10
