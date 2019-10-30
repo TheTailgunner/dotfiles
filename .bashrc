@@ -20,6 +20,7 @@ export PATH="${PATH}:/home/thetailgunner/.local/bin"
 export PERLBREW_ROOT=$HOME/.local
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias firefox-bin='apulse firefox-bin'
 
 PATH="/home/thetailgunner/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/thetailgunner/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
