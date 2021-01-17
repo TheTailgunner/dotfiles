@@ -6,6 +6,6 @@ XXkb.mainwindow.geometry: 20x20+0+0
 XXkb.mainwindow.label.enable:  yes
 XXkb.mainwindow.label.text.1:  En
 XXkb.mainwindow.label.text.2:  Ru
-XXkb.mainwindow.label.background:  #274B69
-XXkb.mainwindow.label.foreground:  #7699BA
+XXkb.mainwindow.label.background:  #85838A
+XXkb.mainwindow.label.foreground:  #D8D4D7
 XXkb.mainwindow.label.font:  Sans-10

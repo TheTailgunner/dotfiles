@@ -19,7 +19,7 @@ conky.config = {
     override_utf8_locale = true,
  
     -- placement
-    alignment = 'top_right',
+    alignment = 'top_left',
     gap_x = 25,
     gap_y = 25,
  
@@ -35,7 +35,7 @@ conky.config = {
  
     -- colors
     font = 'Liberation Mono:size=10',
-    default_color = 'EEEEEE',
+    default_color = '535460',
  
     -- layouting
     template1 = [[${font DejaVuSans Mono:size=19}${color}${alignc}]],
@@ -45,8 +45,6 @@ conky.config = {
 conky.text = [[
 ${template1}${time %R}
 ${template2}${time %a}, ${time %x}
-${hr 1}
-${alignc}  Awaiting for new ebuilds 
 ${hr 1}
 RAM in use: ${membar 10, 180} ${alignr} ${memperc}%
 

@@ -21,54 +21,55 @@
 
     <!-- Visual Styles -->
     <WindowStyle>
-        <Font>Sans-10:bold</Font>
+        <Font>DejaVuSans-9</Font>
         <Width>4</Width>
         <Height>21</Height>
         <Corner>0</Corner>
-        <Foreground>#7699BA</Foreground>
-        <Background>#274B69</Background>
+        <Foreground>#D8D4D7</Foreground>
+        <Background>#85838A</Background>
         <Opacity>0.5:0.9:0.1</Opacity>
         <Active>
-            <Foreground>#D3D3D3</Foreground>
-            <Background>#1E3B56</Background>
+            <Foreground>#535460</Foreground>
+            <Background>#C3BEC1</Background>
             <Opacity>1.0</Opacity>
         </Active>
     </WindowStyle>
     <TrayStyle>
-        <Font>Sans-10</Font>
-        <Background>#274B69</Background>
-	<Outline>#274B69</Outline>
-        <Foreground>#7699BA</Foreground>
+        <Font>DejaVuSans-9</Font>
+        <Background>#85838A</Background>
+	<Outline>#85838A</Outline>
+        <Foreground>#D8D4D7</Foreground>
         <Opacity>1</Opacity>
         <Active>
-            <Background>#1E3B56</Background>
-            <Foreground>#d3d3d3</Foreground>
+	    <Background>#535460</Background>
+            <Foreground>#C3BEC1</Foreground>
     	</Active>
     </TrayStyle>
 
     <PagerStyle>
-	<Foreground>#7699BA</Foreground>
-        <Background>#274B69</Background>
-		    <Text>#D3D3D3</Text>
+	<Foreground>#F7F6F8</Foreground>
+        <Background>#85838A</Background>
+        <Text>#D3D3D3</Text>
         <Active>
-            <Foreground>#D3D3D3</Foreground>
-            <Background>#1E3B56</Background>
+            <Foreground>#C3BEC1</Foreground>
+            <Background>#535460</Background>
         </Active>
     </PagerStyle>
+
     <MenuStyle>
-        <Font>Sans-10:bold</Font>
-        <Foreground>#7699BA</Foreground>
-        <Background>#274B69</Background>
+        <Font>DejaVuSans-9</Font>
+        <Foreground>#D8D4D7</Foreground>
+        <Background>#85838A</Background>
         <Active>
-            <Foreground>#D3D3D3</Foreground>
-            <Background>#1E3B56</Background>
+            <Foreground>#C3BEC1</Foreground>
+            <Background>#535460</Background>
         </Active>
         <Opacity>0.85</Opacity>
     </MenuStyle>
     <PopupStyle>
-        <Font>Sans-9</Font>
-        <Foreground>#D3D3D3</Foreground>
-        <Background>#274B69</Background>
+        <Font>DejaVuSans-9</Font>
+        <Foreground>#C3BEC1</Foreground>
+        <Background>#85838A</Background>
     </PopupStyle>
 
     <!-- Path where icons can be found.
@@ -86,7 +87,7 @@
               contained within a Desktop tag to give a specific background
               for that desktop.
          -->
-	<Background type="command">feh --bg-scale /home/thetailgunner/pictures/wallpaper.jpg</Background>
+	    <Background type="command">feh --bg-fill /home/thetailgunner/wallpapers/5.jpg</Background>
     </Desktops>
 
     <!-- Double click speed (in milliseconds) -->

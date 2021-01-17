@@ -12,6 +12,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'whzup/greent.vim'
+Plugin 'prabirshrestha/vim-lsp'
+Plugin 'prabirshrestha/async.vim'
 call vundle#end()
 
 filetype plugin indent on
@@ -32,4 +34,4 @@ colorscheme greent
 :set cursorline
 
 " KEYMAPS
-nmap <silent> <C-t> :NERDTreeToggle<CR>
+nmap <silent> <C-.> :NERDTreeToggle<CR>
